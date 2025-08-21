@@ -7,3 +7,28 @@ nav a { text-decoration: none; padding: 8px 14px; border-radius: 999px; backgrou
 main { max-width: 900px; margin: 32px auto; padding: 0 16px; }
 section { background: #fff; margin: 20px 0; padding: 20px; border-radius: 16px; box-shadow: 0 6px 16px rgba(0,0,0,.06); }
 footer { text-align: center; padding: 20px; color: #666; }
+#about {
+  text-align: center;
+  line-height: 1.8;
+}
+
+#about h2 {
+  font-size: 2rem;
+  margin-bottom: 16px;
+  color: #6a5acd; /* soft violet */
+}
+
+#about p {
+  font-size: 1.1rem;
+  margin-bottom: 12px;
+}
+
+#about strong {
+  color: #8a2be2; /* highlight important words */
+}
+#about {
+  background: #f9f9f9; /* soft light background */
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
