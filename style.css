@@ -264,3 +264,15 @@ body {
   color: #f0f0f0;
   text-shadow: 0 1px 4px rgba(0,0,0,0.4);
 }
+body {
+  background-color: white;
+  color: black;
+  font-family: Arial, sans-serif;
+  transition: background 0.3s, color 0.3s;
+}
+
+/* Dark mode */
+.dark-mode {
+  background-color: #121212;
+  color: white;
+}
