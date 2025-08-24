@@ -1,13 +1,7 @@
 console.log("Sherin’s portfolio is alive ✨");
-const toggleBtn = document.getElementById("toggleMode");
-const body = document.body;
+const toggleBtn = document.getElementById("darkModeToggle");
 
 toggleBtn.addEventListener("click", () => {
-  body.classList.toggle("dark-mode");
-
-  if (body.classList.contains("dark-mode")) {
-    toggleBtn.textContent = "☀️ Light Mode";
-  } else {
-    toggleBtn.textContent = "🌙 Dark Mode";
-  }
+  document.body.classList.toggle("dark-mode");
+  toggleBtn.textContent = document.body.classList.contains("dark-mode") ? "☀️" : "🌙";
 });
