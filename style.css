@@ -276,3 +276,20 @@ body {
   background-color: #121212;
   color: white;
 }
+.hero {
+  position: relative; /* So child absolute positioning works inside */
+  height: 100vh; 
+  background: lightblue; /* just for demo */
+  padding: 20px;
+}
+
+#darkModeToggle {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 18px;
+}
